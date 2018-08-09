@@ -33,6 +33,11 @@ Responses:
 %1POWR=ERR4 # Projector/Display failure
 ```
 
+## Binaries
+[PJLink CLI for Mac](https://github.com/macoss/pjlink-cli/releases/download/v0.1.0/pjlink-cli_MacOS.zip)
+
+Binaries for other operating system will be coming soon.
+
 ## License
 
 Licensed under
