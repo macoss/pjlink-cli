@@ -14,7 +14,7 @@ pjlink-cli [host] [command] [password]
 
 Check to see if the device is powered on:
   ```
-pjlink-cli 192.168.1.1 'POWR ?' password
+pjlink-cli 192.168.1.1 "POWR ?" password
 
 Responses:
 %1POWR=0 # If Off
@@ -24,7 +24,7 @@ Responses:
 
 Power on a projector:
 ```
-pjlink-cli 192.168.1.1 'POWR 1' password
+pjlink-cli 192.168.1.1 "POWR 1" password
 
 Responses:
 %1POWR=OK # Successful
@@ -35,6 +35,8 @@ Responses:
 
 ## Binaries
 [PJLink CLI for Mac](https://github.com/macoss/pjlink-cli/releases/download/v0.1.0/pjlink-cli_MacOS.zip)
+
+[PJLink CLI for Windows 64 bit](https://github.com/macoss/pjlink-cli/releases/download/v0.1.0/pjlink-cli_Windows-64bit.zip)
 
 Binaries for other operating system will be coming soon.
 
