@@ -24,7 +24,7 @@ Responses:
 
 Power on a projector:
 ```
-pjlink-cli 192.168.1.1 'POWR 1' password3
+pjlink-cli 192.168.1.1 'POWR 1' password
 
 Responses:
 %1POWR=OK # Successful
