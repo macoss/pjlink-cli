@@ -36,6 +36,8 @@ Responses:
 ## Binaries
 [PJLink CLI for Mac](https://github.com/macoss/pjlink-cli/releases/download/v0.1.0/pjlink-cli_MacOS.zip)
 
+[PJLink CLI for Linux Arm V7 (Raspberry PI 3 tested)](https://github.com/macoss/pjlink-cli/releases/download/v0.1.0/pjlink-cli_linux-armv7.tar.gz)
+
 [PJLink CLI for Linux X86](https://github.com/macoss/pjlink-cli/releases/download/v0.1.0/pjlink-cli_linux-x86.tar.gz)
 
 [PJLink CLI for Windows 64 bit](https://github.com/macoss/pjlink-cli/releases/download/v0.1.0/pjlink-cli_Windows-64bit.zip)
