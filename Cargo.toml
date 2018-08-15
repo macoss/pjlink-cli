@@ -1,10 +1,10 @@
 [package]
 name = "pjlink-cli"
-version = "0.1.0"
+version = "0.1.1"
 description = "A PJLink command line client written in Rust."
 authors = ["Rick Russell <rick@rickrussell.org>"]
 repository = "https://macoss.github.io/pjlink-cli"
 license = "Apache-2.0"
 
 [dependencies]
-md5 = "0.3.7"
+pjlink = "0.1.0"

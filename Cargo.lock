@@ -4,11 +4,20 @@ version = "0.3.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "pjlink-cli"
+name = "pjlink"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "md5 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
+[[package]]
+name = "pjlink-cli"
+version = "0.1.1"
+dependencies = [
+ "pjlink 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
 [metadata]
 "checksum md5 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)" = "daa1004633f76cdcd5a9d83ffcfe615e30ca7a2a638fcc8b8039a2dac21289d7"
+"checksum pjlink 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "2c94b2b646d3ebc171ae938ca4c2531adf648a8b22132ee298261ed62864dae0"

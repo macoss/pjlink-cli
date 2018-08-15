@@ -1,6 +1,8 @@
 # PJLink CLI
 
-This is a command line interface client for the PJLink protocol that is written in Rust.  PJLink is a network control protocol that has been incorporated into projectors and displays over the last few years.  You can find the protocol specification [here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj6s-zOkODcAhWEG3wKHbagAloQFjAAegQIABAC&url=https%3A%2F%2Fpjlink.jbmia.or.jp%2Fenglish%2Fdata%2F5-1_PJLink_eng_20131210.pdf&usg=AOvVaw3eWuyry5fcVR1_R-jxrK7J). This utility currently supports both authenticated and open connections and returns the an unparsed response from the device
+This is a command line interface client for the PJLink protocol that is written in Rust.  PJLink is a network control protocol that has been incorporated into projectors and displays over the last few years.  You can find the protocol specification [here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwj6s-zOkODcAhWEG3wKHbagAloQFjAAegQIABAC&url=https%3A%2F%2Fpjlink.jbmia.or.jp%2Fenglish%2Fdata%2F5-1_PJLink_eng_20131210.pdf&usg=AOvVaw3eWuyry5fcVR1_R-jxrK7J). This utility currently supports both authenticated and open connections and returns the an unparsed response from the device.
+
+This project uses the [pjlink](https://github.com/macoss/pjlink) Rust crate.
 
 Testing has been done with Panasonic and Sanyo projectors.
 
